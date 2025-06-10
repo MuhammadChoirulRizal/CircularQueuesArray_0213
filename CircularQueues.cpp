@@ -3,6 +3,7 @@ using namespace std;
 
 class Queues
 {
+    private:
     int FRONT, REAR, max = 5;
     int queue_array[5];
 
@@ -90,7 +91,7 @@ public:
                 FRONT_position++;
             }
             FRONT_position= 0;
-            // literasi dri awwal array hingga rear
+            
             while (FRONT_position <= REAR_position){
                 cout << queue_array[FRONT_position]<< "  ";
                 FRONT_position++;

@@ -1,0 +1,1 @@
+literasi dri awwal array hingga rear
